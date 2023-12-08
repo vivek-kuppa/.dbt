@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: my_model
+    columns:
+      - name: column1
+        tests:
+          - not_null
+      - name: column2
+        tests:
+          - unique

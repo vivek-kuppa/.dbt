@@ -1,0 +1,65 @@
+my_dbt_project:
+  outputs:
+    dev:
+      account: ghpsrdn-bd72344
+      database: ANALYTICS
+      password: iCUI4CU@
+      role: ACCOUNTADMIN
+      schema: SCHEM1
+      threads: 1
+      type: snowflake
+      user: VIVEK
+      warehouse: COMPUTE_WH
+  target: dev
+proj2:
+  outputs:
+    dev:
+      account: sw07540.ap-southeast-1
+      database: ANALYTICS
+      password: iCUI4CU@
+      role: ACCOUNTADMIN
+      schema: schem1
+      threads: 1
+      type: snowflake
+      user: VIVEK
+      warehouse: COMPUTE_WH
+  target: dev
+sales:
+  outputs:
+    dev:
+      account: ghpsrdn-bd72344
+      database: ANALYTICS
+      password: iCUI4CU@
+      role: ACCOUNTADMIN
+      schema: SCHEM1
+      threads: 1
+      type: snowflake
+      user: VIVEK
+      warehouse: COMPUTE_WH
+  target: dev
+sample_dat:
+  outputs:
+    dev:
+      account: sw07540.ap-southeast-1
+      database: SNOWFLAKE_SAMPLE_DATA
+      password: iCUI4CU@
+      role: ACCOUNTADMIN
+      schema: TPCH_SF1
+      threads: 1
+      type: snowflake
+      user: VIVEK
+      warehouse: COMPUTE_WH
+  target: dev
+sample_data:
+  outputs:
+    dev:
+      account: sw07540.ap-southeast-1
+      database: SNOWFLAKE_SAMPLE_DATA
+      password: iCUI4CU@
+      role: ACCOUNTADMIN
+      schema: TPCH_SF1
+      threads: 1
+      type: snowflake
+      user: VIVEK
+      warehouse: SNOWFLAKE_SAMPLE_DATA
+  target: dev
